@@ -10,11 +10,6 @@ from collections import Counter
 
 day_zero_fish = Counter([int(i) for i in data.split()[0].split(",")])
 
-day_zero_fish
-fish[6]
-
-len(day_zero_fish)
-
 # Part 1: How many fish will there be after 80 days
 
 def get_number_laternfish(current_states, n_days):
