@@ -1,4 +1,4 @@
-import os, requests, pandas as pd, numpy as np
+import os, requests, numpy as np
 
 os.chdir(path = "/Users/ddifrancesco/OneDrive - The Alan Turing Institute/AoC")
 os.listdir()
@@ -14,7 +14,7 @@ calls = data[0].split(",")
 i = int(0); skip = 5; indices = []
 for i in np.arange(start = 2, stop = len(data), step = skip + 1):
     indices.append(list(np.arange(start = i, stop = i + skip, step = 1)))
-    i = i + step + 1
+    i = i + skip + 1
 
 def get_board_matrix(board_list):
     return(np.asmatrix([np.array(x.replace("\n", "").split()) for x in board_list]))
