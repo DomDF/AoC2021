@@ -1,6 +1,6 @@
 import os, pandas as pd, numpy as np
 
-os.chdir(path = "/Users/ddifrancesco/OneDrive - The Alan Turing Institute/AoC")
+os.chdir(path = "/Users/ddifrancesco/Github/AoC2021")
 os.listdir()
 
 with open("day_7.txt") as file:

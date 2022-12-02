@@ -1,6 +1,6 @@
 import os, requests, numpy as np
 
-os.chdir(path = "/Users/ddifrancesco/OneDrive - The Alan Turing Institute/AoC")
+os.chdir(path = "/Users/ddifrancesco/Github/AoC2021")
 os.listdir()
 
 with open("day_4.txt") as file:
